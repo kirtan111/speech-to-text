@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+<body>
+    <div class="container">
+        <h1>Speech To Text</h1>
+        <div>
+            <label for="lang">
+                Choose your language:
+                <select name="lang" id="lang">
+                    <option value="en-GB" id="en-GB" selected="selected">English - GB</option>
+                    <option value="en-US" id="en-US">English - US</option>
+                    <option value="es-ES" id="es-ES">Español - ES</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <button id="start" title="record"></button>
+        </div>
+            <span id="tooltip" class="init"> to clipboard!</span>
+            <div id="transcription" title="copy" >
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
